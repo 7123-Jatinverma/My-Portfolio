@@ -1,0 +1,103 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  
+}
+
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 20px;
+  
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  padding-top: 15px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Main Section Styles */
+main {
+  padding: 50px 0;
+  width:fit-content
+  text-align: center;
+  }
+#about,
+#skills,
+#projects {
+  text-align: center; 
+  margin-bottom: 50px; }
+
+section {
+  margin-bottom: 50px;
+}
+
+/* Project Styles */
+.project {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.project img {
+  width:100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-links li a {
+  color: #fff;
+  text-decoration: none;
+}
